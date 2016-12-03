@@ -1,19 +1,18 @@
 body{
 	font-family: 'Dosis', sans-serif;
-	color: #fff;
 }
 .bottom {
-	border-bottom: 2px solid #30C08D;
+	border-bottom: 1px solid #000;
 }
 .sub {
-	border-bottom: 4px solid #30C08D;
+	border-bottom: 4px solid #000;
 	width: 30%;
 }
 .lang {
 	padding-top: 10px;
 	padding-bottom: 6px;
-	color: #000;
-	background: #F34B09;
+	color: #fff;
+	background: #000;
 }
 .brand {
 	padding-top: 30px;
@@ -25,13 +24,13 @@ body{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #606060;
-	background: #C8B700;
+	background: #DBDADA;
 	}
 .footer {
 	padding-top: 15px;
 	padding-bottom: 10px;
-	color: #000;
-	background: #78FF9B99;
+	color: #fff;
+	background: #000;
 }
 .btn-like{
 	background-color: #50a8f3;
@@ -68,14 +67,14 @@ body{
 	}
 .navbar-default {
     background: rgba(255,255,255,1);
-	background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(48,192,141,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(48,192,141,1)));
-	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(48,192,141,1) 100%);
-	background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(48,192,141,1) 100%);
-	background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(48,192,141,1) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(48,192,141,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#30c08d', GradientType=1 );
-    border-color: #30C08D;
+	background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=1 );
+    border-color: #000;
 }
 .navbar-default .navbar-nav > li > a {
     color: #313131;
@@ -88,6 +87,20 @@ body{
 }
 ul li{
 	display: inline;
+}
+.form-group-lg .form-control {
+    border-radius: 18px;
+}
+.btn-group-lg > .btn, .btn-lg {
+    border-radius: 18px;
+}
+.btn .badge {
+    top: -18px;
+}
+.btn-primary .badge {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
 }
 .card {
     /* Add shadows to create the "card" effect */
@@ -120,41 +133,8 @@ ul li{
   font-size: 23px;
   border-radius: 3px;
  }
-.btn-default-1:hover, .btn-default-1:focus {
-    border: 3px solid #30C08D;
-    outline: 0;
-    color: #fff;
-    background-color: #30C08D;
-}
-.btn-default-1 {
-    border: 3px solid #30C08D;
-    color: #30C08D;
-    background-color: transparent;
-}
-.btn-default-2:hover, .btn-default-2:focus {
-    border: 3px solid #1A8C63;
-    outline: 0;
-    color: #000;
-    background-color: #1A8C63;
-}
-.btn-default-2 {
-    border: 3px solid #1A8C63;
-    color: #1A8C63;
-    background-color: transparent;
-}
-.btn-default-3:hover, .btn-default-3:focus {
-    border: 3px solid #000;
-    outline: 0;
-    color: #fff;
-    background-color: #000;
-}
-.btn-default-3 {
-    border: 3px solid #fff;
-    color: #30C08D;
-    background-color: transparent;
-}
  .card-large {
- 	border: 3px #30C08D  solid;
+ 	border: 3px #000  solid;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 0px;
@@ -167,16 +147,20 @@ ul li{
     color: #DF510F; 
 }
 .form-control{
-	border: 3px solid #30C08D;
+	border: 3px solid #000;
 }
-a:focus, a:hover {
-    color: #e9ed4c;
+.btn-default{
+	border: 1px solid #000;
+	background: #000;
+	color: #fff;
+}
+.btn-default:hover{
+	border: 1px solid #F7B449;
+	background: #F7B449;
 }
 a {
-    color: #fcfeff;
+    color: #46aaff;
 }
-.separar{
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+
+
 
