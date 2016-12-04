@@ -32,13 +32,25 @@ body{
 	color: #fff;
 	background: #30C08D;
 }
+.sup{
+	position:relative;
+	left:23px;
+	top:-23px;
+}
 .btn-like{
 	background-color: #50a8f3;
 	border-color: #fff0;
+	color: #fff;
 }
 .btn-buy{
 	background-color: #F7B449;
 	border-color: #fff0;
+	color: #fff;
+}
+.btn-detail{
+	background-color: #9C163A;
+	border-color: #fff0;
+	color: #fff;
 }
 .btn-circle {
 	width: 30px;
@@ -104,6 +116,7 @@ ul li{
 }
 .card {
     /* Add shadows to create the "card" effect */
+    font-size: 16px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -130,6 +143,36 @@ ul li{
   color: #fff;
   font-weight: 600;
   background: #df510f;
+  font-size: 23px;
+  border-radius: 3px;
+ }
+ .tag-price{
+  display: inline-block;
+  padding: 1px 5px;
+  margin: 0 0 4px 0;
+  color: #fff;
+  font-weight: 600;
+  background: #0cc5a4;
+  font-size: 23px;
+  border-radius: 3px;
+ }
+ .tag-info{
+  display: inline-block;
+  padding: 1px 5px;
+  margin: 0 0 4px 0;
+  color: #fff;
+  font-weight: 600;
+  background: #efb40c;
+  font-size: 23px;
+  border-radius: 3px;
+ }
+ .tag-stock{
+  display: inline-block;
+  padding: 1px 5px;
+  margin: 0 0 4px 0;
+  color: #fff;
+  font-weight: 600;
+  background: #71d10a;
   font-size: 23px;
   border-radius: 3px;
  }
@@ -160,6 +203,12 @@ ul li{
 }
 a {
     color: #02284b;
+}
+.input-group-addon {
+    color: #fff;
+    background-color: #30C08D;
+    border: 1px solid #30C08D;
+    border-radius: 4px;
 }
 
 
